@@ -3,8 +3,8 @@ package shuzi;
 
 	
 	class Display{
-		 private int value = 0;
-	     private int limit = 0;
+		 private int value = 0;      //*定义一个私有变量
+	     private int limit = 0;      //*定义一个私有变量
 	
 	    public Display(int limit){
 	    	this.limit = limit;
@@ -20,7 +20,7 @@ package shuzi;
 	    	}
 	    }
 	class Clock {
-		private Display hour = new Display(24);
+		private Display hour = new Display(24);  
 		private Display minute = new Display(60);
 		private Display second = new Display(60);
 		
